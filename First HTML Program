@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<title>This is my first title</title>
+	<head>
+		<title>This is my first title</title>
+	</head>
+
 	<p> Hello World </p>
 
 </html>
