@@ -1,0 +1,20 @@
+p{
+
+color: snow;
+background: black;
+font-weight: bold;
+text-align: center;
+text-shadow:2px 2px #FF0000; /*text shadow needs the h-shadow and v-shadow*/
+}
+
+ol{
+
+    color:blue;
+    text-align: center;
+}
+ul{
+
+    color:blue;
+    text-align: center;
+
+}
