@@ -7,12 +7,12 @@ text-align: center;
 text-shadow:2px 2px #FF0000; /*text shadow needs the h-shadow and v-shadow*/
 }
 
-li{
+ol{
 
     color:blue;
     text-align: center;
 }
-li{
+ul{
 
     color:blue;
     text-align: center;
