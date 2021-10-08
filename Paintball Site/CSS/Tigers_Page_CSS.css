@@ -25,3 +25,9 @@ h2 {
   div.center{
       text-align: center;
   }
+
+.Background{
+
+    background-image: url('./Images/institute_hall.jpg');
+    background-size: cover;
+}
