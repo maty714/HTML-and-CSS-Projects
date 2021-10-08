@@ -28,6 +28,7 @@ h2 {
 
 .Background{
 
-    background-image: url('./Images/institute_hall.jpg');
+    background-image: url("./Images/Team.jpg");
     background-size: cover;
+
 }
