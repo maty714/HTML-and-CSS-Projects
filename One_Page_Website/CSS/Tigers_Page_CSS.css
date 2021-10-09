@@ -1,8 +1,9 @@
-
-h1 {
-    font: bold;    
+h1{
+    text-align: center;
     color: darkorange;
-    text-align: center;} 
+}
+
+
 
 h2 {
 
@@ -26,9 +27,9 @@ h2 {
       text-align: center;
   }
 
-.Background{
-
-    background-image:url(../Images/institute_hall.jpg);
-    background-size: cover;
-
+.Background {
+    background-image: url(../Images/institute_hall.jpg);
+    
+    align-items: center;
+  
 }
