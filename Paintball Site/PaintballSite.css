@@ -1,8 +1,4 @@
 
-h2 {
-
-    text-align: center;
-}
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
 float: left;
@@ -49,6 +45,12 @@ color:orange ;
 font-size: 100px;
 line-height: .01;
 text-align: center;
+}
+
+h2{
+  position: relative;
+  color:black;
+  text-align: center;
 }
 
 iframe, a{
