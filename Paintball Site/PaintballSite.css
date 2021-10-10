@@ -24,37 +24,41 @@ div.center{
 
 .Background2{
 
-    background-image: url(./Images/Background1.jpg); 
+    
+     background-size: cover; 
+     background-position: center center; 
+     background-repeat: "no-repeat";
+     background-attachment: fixed;
+
 }
 
-.Background {
-position: relative; 
-height: 100vh;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
 
-.Background::before {    
+
+.Background2:before {    
   content: "";
-  background-image: url(../Images/institute_hall.jpg);
+  background: url(./Images/Background1.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.75;
+  opacity: 0.50;
 }
 
 h1{
 
-position: relative;
-color: darkorange;  
-font-size: 14;
-line-height: 0.9;
+position:relative;
+color:orange;  
+font-size: 100px;
+line-height: .01;
 text-align: center;
 
+
+}
+
+iframe{
+
+  position: relative;
 
 }
