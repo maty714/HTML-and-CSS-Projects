@@ -45,17 +45,15 @@ div.center{
 
 .Background:before {    
 content: "";
-background: url();
+background: url(./Images/rit-campus.jpg);
 background-size: cover;
 position: absolute;
 top: 0px;
 right: 0px;
 bottom: 0px;
 left: 0px;
-opacity: 0.50;
+opacity: 0.60;
 }
-
-
 
 
 
@@ -75,4 +73,34 @@ h2{
 
 iframe, a{
   position: relative;
+}
+
+
+.container{
+border: oldlace;
+border-radius: 25%;
+float:none;
+}
+
+.container:nth-child(-n+3){ 
+  background-repeat: no-repeat;
+  margin: 7px;
+  width: 50px;
+  height: 50px;
+
+}
+
+.container:nth-child(1){
+  background-image: url(./Images/splat-icon.png);
+  background-size: cover; 
+}
+
+.container:nth-child(2){
+  background-image: url(./Images/paw-icon.png);
+  background-size: cover; 
+}
+
+.container:nth-child(3){
+  background-image: url(./Images/tiger-icon.png);
+  background-size: cover;
 }
