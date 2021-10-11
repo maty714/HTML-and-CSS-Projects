@@ -18,13 +18,10 @@ div.center{
 }
 
 .Background2{
-
-    
      background-size: cover; 
      background-position: center center; 
      background-repeat: "no-repeat";
      background-attachment: fixed;
-
 }
 
 .Background2:before {    
@@ -38,6 +35,29 @@ div.center{
   left: 0px;
   opacity: 0.50;
 }
+
+.Background{
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: "no-repeat";
+  background-attachment: fixed;
+}
+
+.Background:before {    
+content: "";
+background: url();
+background-size: cover;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+opacity: 0.50;
+}
+
+
+
+
 
 h1{
 position:relative;
