@@ -21,7 +21,7 @@ color: #fff;
 float: left;
 width: 100px;
 height: 100px;
-margin: 10px;
+margin: 5px;
 border: 1px solid black;
 border-radius: 25%;
 cursor: pointer;
@@ -42,6 +42,7 @@ text-shadow: 2px 1px 4px rgba(0,0,0,0.8);
 
 .squares:nth-child(1){
     background: #4240ff ;
+    
 }
 
 .squares:nth-child(2){
@@ -63,6 +64,10 @@ text-shadow: 2px 1px 4px rgba(0,0,0,0.8);
 .container .squares:nth-child(-n+4):hover{
     background-image: url(./Icons/icons3.png);
     transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 }
 
 .squares:nth-child(1):hover{
@@ -83,5 +88,15 @@ text-shadow: 2px 1px 4px rgba(0,0,0,0.8);
  background: #77b800;
 }
 
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url(./Icons/icons3.png);
+    }
+    50%{
+        transform: translateY(330px);
+    }
 
+
+}
 
