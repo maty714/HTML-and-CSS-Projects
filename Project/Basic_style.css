@@ -25,7 +25,7 @@ margin: 10px;
 border: 1px solid black;
 border-radius: 25%;
 cursor: pointer;
-
+transition: transform .5s ease-in-out;
 
 }
 
@@ -56,3 +56,32 @@ text-shadow: 2px 1px 4px rgba(0,0,0,0.8);
 .squares:nth-child(4){
     background: orange;    
 }
+
+
+/*HOVER EFFECTS*/
+
+.container .squares:nth-child(-n+4):hover{
+    background-image: url(./Icons/icons3.png);
+    transform: scale(.5);
+}
+
+.squares:nth-child(1):hover{
+    background: #13b4ff;
+}
+
+
+.squares:nth-child(2):hover{
+    background: #d861af;
+}
+
+
+.squares:nth-child(3):hover{
+ background: #81205f;
+}
+
+.squares:nth-child(4):hover{
+ background: #77b800;
+}
+
+
+
