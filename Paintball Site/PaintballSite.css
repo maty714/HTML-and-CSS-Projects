@@ -65,12 +65,14 @@ color:orange ;
 font-size: 100px;
 line-height: .01;
 text-align: center;
+overflow-wrap: break-word;
 }
 
 h2{
   position: relative;
   color:black;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 iframe, a, p{
@@ -87,14 +89,13 @@ iframe, a, p{
   width: 100px;
   height: 100px;
   margin: 5px;
-  border-radius: 25%;
+  border-radius: 50%;
   cursor: pointer;
   transition: transform .5s ease-in-out;
   position: relative;
-  
   }
 
-  .squares:nth-child(-n+4) p{
+  .squares:nth-child(-n+3) a{
     color:cyan;
     font-family: "helvetica Neue", Arial, Helvetica, sans-serif ;
     font-size: 1.5em;
@@ -108,6 +109,7 @@ iframe, a, p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
     }
 
     .squares:nth-child(1){
@@ -130,8 +132,8 @@ iframe, a, p{
   
   /*HOVER EFFECTS*/
 
-.container .squares:nth-child(-n+4):hover{
-  background-image: url(./Images/Black_Splat.jpg);
+.container .squares:nth-child(-n+3):hover{
+  background-image: url(./Images/paw-icon.png);
   transform: scale(1.5);
   animation-name: race;
   animation-duration: 2.5s;
