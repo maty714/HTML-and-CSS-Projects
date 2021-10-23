@@ -49,3 +49,24 @@ h2 {
     align-items: center;
   
 }
+
+/* Dsiplays icons on top left of page*/
+.FaceBookIcon svg{
+    color:  blue;
+    height: 50px;
+    width: 50px;
+}
+
+.InstagramIcon svg{
+    height: 50px;
+    width: 50px;
+    color: rgb(251,57,88);
+    margin-left: 4px;
+}
+
+.Container{
+
+    display: flex;
+    
+}
+/* Dsiplays icons on top left of page*/
