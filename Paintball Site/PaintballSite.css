@@ -139,23 +139,24 @@ iframe, a, p{
   animation-duration: 2.5s;
   animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 }
-/*
-.squares:nth-child(1):hover{
+
+/* Dsiplays icons on top left of page*/
+.FaceBookIcon svg{
+  color:  blue;
+  height: 50px;
+  width: 50px;
+}
+
+.InstagramIcon svg{
+  height: 50px;
+  width: 50px;
+  color: rgb(251,57,88);
+  margin-left: 4px;
+}
+
+.Container{
+
+  display: flex;
   
 }
-
-
-.squares:nth-child(2):hover{
-  
-}
-
-
-.squares:nth-child(3):hover{
-
-}
-
-.squares:nth-child(4):hover{
-
-}
-*/
-
+/* Dsiplays icons on top left of page*/
