@@ -1,0 +1,65 @@
+/* Dsiplays icons on top left of page*/
+.FaceBookIcon {
+    color:  blue;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .InstagramIcon {
+    height: 50px;
+    width: 50px;
+    color: rgb(251,57,88);
+   margin-left: 10px;
+  }
+  
+  .Container{
+  
+    display: flex;
+    
+  }
+  /* Dsiplays icons on top left of page*/
+
+  #instagram:link {
+    color: rgb(251,57,88);
+    
+  }
+  #instagram:visited {
+    color: rgb(251,57,88);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #instagram:hover {
+    color: lightcoral;
+    
+  }
+  #instagram:active {
+    color: rgb(251,57,88);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  #Facebook:link{
+
+    color:  blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #Facebook:visited {
+    color:  blue;;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #Facebook:hover {
+    color: navy
+    
+  }
+  #Facebook:active {
+    color:  blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a{
+      
+      margin-right: 10px;
+  }
