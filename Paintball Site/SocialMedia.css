@@ -59,7 +59,25 @@
     text-decoration: underline;
   }
 
-  a{
-      
+  a{  
       margin-right: 10px;
+  }
+
+  .Background{
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: "no-repeat";
+    background-attachment: fixed;
+  }
+  
+  .Background:before {    
+  content: "";
+  background: url(./Images/TeamLogo.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.60;
   }
