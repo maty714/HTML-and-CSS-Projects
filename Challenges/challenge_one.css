@@ -1,6 +1,13 @@
 .center{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    
+
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    display: block;
+  }
+
+  img {
+    filter: grayscale(100%);
   }
