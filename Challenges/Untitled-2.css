@@ -1,0 +1,28 @@
+
+.Para  {
+    
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    top: 8px;
+    left: 15px;
+    color: white;
+}
+
+
+
+.Para:hover{
+
+    color: red;
+}
+
+
+.img img:hover{
+
+    filter: grayscale(50%);
+
+}
+
