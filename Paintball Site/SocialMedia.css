@@ -1,22 +1,11 @@
-/* Dsiplays icons on top left of page*/
-.FaceBookIcon {
-    color:  blue;
-    height: 50px;
-    width: 50px;
-  }
-  
-  .InstagramIcon {
-    height: 50px;
-    width: 50px;
-    color: rgb(251,57,88);
-   margin-left: 10px;
-  }
-  
+
+
+  /*
   .Container{
   
-    display: flex;
-    
-  }
+    display: flex;}
+    */
+  
   /* Dsiplays icons on top left of page*/
 
   #instagram:link {
@@ -58,6 +47,31 @@
     background-color: transparent;
     text-decoration: underline;
   }
+
+
+  #orda:link {
+    color: rgb(251,57,88);
+    
+  }
+  #orda:visited {
+    color: rgb(251,57,88);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #orda:hover {
+    color: lightcoral;
+    
+  }
+  #orda:active {
+    color: rgb(251,57,88);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+/* Dsiplays icons on top left of page*/
+
 
   a{  
       margin-right: 10px;
@@ -205,18 +219,20 @@
 /*End of Photo Container*/
 
 
-.logoBackground{
+.background{
 
-  width: auto;
-  height: 500px;
-  margin-left: 0;
-  background:repeat-x;
-  background-size: cover;
+ background-image: url(./Images/TeamLogo.jpg);
+ width: auto;
+ height: 700px;
+ background-repeat:round;
+ color: white;
+ font-weight: 900;
+ text-align: center;
+ margin-bottom: 30px;
+ border: 2px solid black;
+ border-radius: 3px;
 }
 
-.LogoContainer{
 
-width: auto;
-height: 500px;
 
-}
+
