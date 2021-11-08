@@ -240,7 +240,7 @@ sup {
 
 a {
   color: #64a19d;
-  text-decoration: underline;
+  
 }
 a:hover {
   color: #50817e;
@@ -11769,11 +11769,18 @@ body {
 
 
 
+/*End of Bootstrap CSS*/
+
+
+
+
+/*Start of personal CSS*/
 /* Dsiplays icons on top left of page*/
 
 
   a{  
       margin-right: 10px;
+      text-decoration: none;
   }
 
   .Background{
@@ -11867,8 +11874,7 @@ body {
     
 .white-head{
     color:cyan;
-    margin-top: 30%;
-    text-decoration: none;  
+    margin-top: 30%;  
     line-height: 30px; /**/
     padding-bottom: 20px;
         
@@ -11884,7 +11890,7 @@ body {
     color: cyan;
     line-height: 30px; /**/
     padding-bottom: 20px;
-    padding-top: 50%;
+    padding-top: 30%;
   }
   
 
@@ -11943,4 +11949,11 @@ body {
   bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
   min-width: 100%; /* This ensures the video is displayed across the full width of the page */
   z-index: -1; /* This places the video behind the other elements on the page */
+}
+
+
+/*This overrides the color of the button*/
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: darkorange !important;
 }
