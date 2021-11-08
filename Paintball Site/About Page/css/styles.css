@@ -11456,3 +11456,11 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+/* Formatting for background video */
+#BG_Video {
+  position: fixed; /* This fixes the video to the page */
+  right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
+  bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
+  min-width: 100%; /* This ensures the video is displayed across the full width of the page */
+  z-index: -1; /* This places the video behind the other elements on the page */
+}
