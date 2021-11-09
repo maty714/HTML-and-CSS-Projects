@@ -4056,7 +4056,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #64a19d;
+  color: darkorange;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4065,17 +4065,21 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
+/*Changes color when hovering over tab*/
 .nav-link:hover, .nav-link:focus {
-  color: #50817e;
+  color: #50817e; /* darker turquise*/
 }
+
+
 .nav-link.disabled {
-  color: #6c757d;
+  color: #6c757d; /*grey*/
   pointer-events: none;
   cursor: default;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6; /*white*/
 }
 .nav-tabs .nav-link {
   margin-bottom: -1px;
@@ -4085,19 +4089,19 @@ textarea.form-control-lg {
   border-top-right-radius: 0.25rem;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: #e9ecef #e9ecef #dee2e6; /*tall three are white*/
   isolation: isolate;
 }
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #6c757d; /*grey*/
   background-color: transparent;
   border-color: transparent;
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  color: #495057; /*Dark B*/
+  background-color: #fff;  /*White*/
+  border-color: #dee2e6 #dee2e6 #fff; /*tall three are white*/
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4112,8 +4116,8 @@ textarea.form-control-lg {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #64a19d;
+  color: #fff;  /*White*/
+  background-color: #64a19d; /*turquise*/
 }
 
 .nav-fill > .nav-link,
@@ -11479,8 +11483,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: darkorange;
+  border: 1px solid darkorange;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11539,10 +11543,12 @@ body {
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
+  
+  /*This changes the bottom line to orange*/
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid darkorange;
   }
 }
 
@@ -11957,3 +11963,4 @@ body {
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: darkorange !important;
 }
+
