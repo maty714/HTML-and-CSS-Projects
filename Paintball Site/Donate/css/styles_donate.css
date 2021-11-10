@@ -3953,7 +3953,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: darkorange;
+  color: #224444;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -11295,17 +11295,7 @@ body {
   height: 100%;
   position: relative;
 }
-body:before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #2a5555;
-  opacity: 0.7;
-  z-index: 1;
-}
+
 
 video.bg-video {
   position: fixed;
@@ -11431,5 +11421,5 @@ video.bg-video {
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: orange !important;
+  background-color: darkorange !important;
 }
