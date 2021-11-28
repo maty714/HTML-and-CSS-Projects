@@ -296,7 +296,7 @@ section{
 
 .terms{
 
-    margin: 30px 1px 0 0;
+    margin: 50px 1px 0 0;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -349,11 +349,15 @@ section{
 
   }
 
+  
+  .rsvp-text{
+    text-align: center;
+  }
+
   #footer{
     background-color: rgba(100,65,0,.3);
     color: #000;    
     text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
-
   }
