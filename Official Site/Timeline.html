@@ -156,7 +156,7 @@
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="text-center">
-                <iframe width="500" height="400" src="https://www.youtube.com/embed/yyHFIBOB3v8" 
+                <iframe width="500" height="400" src="https://www.youtube.com/embed/Y9N3pnE0oVE" 
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
@@ -170,7 +170,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <a href="./img/HB_Win.jpg">
+                            <a  onclick="openModal();currentSlide(1)">
                                 <img class="rounded-circle img-fluid" src="./img/HB_Win.jpg" alt="..." />
                             </a>
                         </div>
@@ -184,7 +184,7 @@
                     </li>
                     <li class="timeline-inverted"> <!--Positions text to the right-->
                         <div class="timeline-image">
-                            <a href="./img/Team_Photo2.jpg">
+                            <a  onclick="openModal();currentSlide(2)" >
                                 <img class="rounded-circle img-fluid" src="./img/Team_Photo2.jpg" alt="..." />
                             </a>
                         </div>
@@ -198,7 +198,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <a href="./img/aline_1st place old.jpg">
+                            <a onclick="openModal();currentSlide(3)" >
                                 <img class="rounded-circle img-fluid" src="./img/aline_1st place old.jpg" alt="..." />
                             </a>
                         </div>
@@ -212,8 +212,8 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <a href="./img/NVP_OldKrew.jpg">
-                                <img class="rounded-circle img-fluid" src="./img/NVP_OldKrew.jpg" alt="..." />
+                            <a onclick="openModal();currentSlide(4)">
+                                <img class="rounded-circle img-fluid"  src="./img/NVP_OldKrew.jpg" alt="..." />
                             </a>
                             </div>
                         <div class="timeline-panel ">
@@ -226,8 +226,8 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <a href="./img/Team_Photo_1st_Event.jpg">
-                                <img class="rounded-circle img-fluid" src="./img/Team_Photo_1st_Event.jpg" alt="..." />
+                            <a onclick="openModal();currentSlide(5)">
+                                <img class="rounded-circle img-fluid"  src="./img/Team_Photo_1st_Event.jpg" alt="..." />
                             </a>
                         </div>
                         <div class="timeline-panel">
@@ -458,6 +458,64 @@
                 </div>
             </div>
         </div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 5</div>
+        <img src="img1_wide.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+        <img src="img2_wide.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+        <img src="img3_wide.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <img src="img4_wide.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="img4_wide.jpg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="./img/HB_Win.jpg" onclick="currentSlide(1)" alt="Nature">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./img/aline_1st place old.jpg" onclick="currentSlide(2)" alt="Snow">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./img/Casey.jpg" onclick="currentSlide(3)" alt="Mountains">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./img/aline_1st place old.jpg" onclick="currentSlide(4)" alt="Lights">
+      </div>
+    </div>
+  </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
