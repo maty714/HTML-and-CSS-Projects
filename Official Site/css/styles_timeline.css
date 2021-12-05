@@ -11887,35 +11887,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Creates Slideshow*/
+.test{
 
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Create four equal columns that floats next to eachother */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* The Modal (background) */
-.MY_modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
   background-color: black;
 }
-

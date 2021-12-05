@@ -4,8 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" />
-        <title>Your Name Here</title>
+        <title>Matts Portfolio</title>
         <link rel="stylesheet" type="text/css" href="./Finalcss.css">
+        <script src="./main.js" defer></script>
     </head>
 
     <!--Body-->
@@ -49,12 +50,58 @@
                 </p>
             </strong>
         </div>
+        <!-- Slideshow section added -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./IMG/Phone.png" alt="Picture of yourself">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./IMG/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./IMG/SQL_and_Database.jpg" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./IMG/C_Sharp_and_Dot_NET.png" alt="C# logo">
+                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+                    </div>
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./IMG/VBA.png" alt="VBA Logo">
+                        <div class="text"> and off end work with Excel VBA</div>
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    
+                </div>
+            </div>
+        </div>
 
         <!--About section-->
         <div class="Row" id="About">
             <!--Left column-->
             <div class="Column_2">
-                <img src="./IMG/TechAcademy.png" alt="Replace with your own image and description">
+                <img id="rotate" src="./IMG/TechAcademy.png" alt="Replace with your own image and description">
             </div>
             <!--Right column-->
             <div class="Column_1">
@@ -74,7 +121,7 @@
             <!--Left column-->
             
             <div class="Column_2">
-                <a href="https://github.com/maty714" target="_blank"><img src="./IMG/GitHub.png" alt="GitHub Logo"></a>
+                <a  href="https://github.com/maty714" target="_blank"><img id="rotate" src="./IMG/GitHub.png" alt="GitHub Logo"></a>
             </div>
             <!--Right column-->
             <div class="Column_1">
@@ -91,7 +138,7 @@
         <div class="Row" id="Contact">
             <!--Contact image, left column-->
             <div class="Column_2 Column_tall">
-                <img src="./IMG/envelope-open.svg" alt="Contact_Image">
+                <img id="rotate" src="./IMG/envelope-open.svg" alt="Contact_Image">
             </div>
             <!--Contact form, right column-->
             <div class="Column_1 Column_tall">
