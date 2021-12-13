@@ -6,6 +6,12 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Timeline</title>
+        <!--Lightbox Links-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" defer></script>
         <!-- Favicon-->
         <link rel="apple-touch-icon" sizes="57x57" href="./Favicon Files/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="./Favicon Files/apple-icon-60x60.png">
@@ -170,7 +176,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <a  onclick="openModal();currentSlide(1)">
+                            <a href="./img/HB_Win.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid" src="./img/HB_Win.jpg" alt="..." />
                             </a>
                         </div>
@@ -184,7 +190,7 @@
                     </li>
                     <li class="timeline-inverted"> <!--Positions text to the right-->
                         <div class="timeline-image">
-                            <a  onclick="openModal();currentSlide(2)" >
+                            <a href="./img/Team_Photo2.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid" src="./img/Team_Photo2.jpg" alt="..." />
                             </a>
                         </div>
@@ -198,7 +204,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <a onclick="openModal();currentSlide(3)" >
+                            <a href="./img/aline_1st place old.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid" src="./img/aline_1st place old.jpg" alt="..." />
                             </a>
                         </div>
@@ -212,7 +218,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <a onclick="openModal();currentSlide(4)">
+                            <a href="./img/NVP_OldKrew.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid"  src="./img/NVP_OldKrew.jpg" alt="..." />
                             </a>
                             </div>
@@ -226,7 +232,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <a onclick="openModal();currentSlide(5)">
+                            <a href="./img/Team_Photo_1st_Event.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid"  src="./img/Team_Photo_1st_Event.jpg" alt="..." />
                             </a>
                         </div>
@@ -248,9 +254,6 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="test">
-            
         </section>
         
         <!-- Footer-->
@@ -371,7 +374,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <img class="img-fluid d-block mx-auto" src="./img/2017 Team.jpg" alt="..." />
-                                    <p><strong>Top Row from the left:</strong> Simon Buchheit, Hunter Rotondo, Tim Salecky, Will Redmond, Ryan Hirschman, David Bergquist, Michael Belle
+                                    <p><strong>Top row from the left:</strong> Simon Buchheit, Hunter Rotondo, Tim Salecky, Will Redmond, Ryan Hirschman, David Bergquist, Michael Belle
                                         <br><strong> Middle row from the left:  </strong> Rob Coolidge, Mike Troise <br> <strong>Bottom row from the left:</strong> Sean Alfonso, Kilian Bestram, Zach Easley, Shawn Foster, Mike Stabile, Tyler Brennan, Angus Chow  </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -395,7 +398,7 @@
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <img class="img-fluid d-block mx-auto" src="./img/2018 Team.jpg" alt="..." />
-                                    <p><strong>Top Row from the left:</strong>Luke McKeown, Ryan Hirschman, Simon Buchheit, Angus Chow, Chris Heist, Hunter Rotondo, Dave Bergquist, Jordan Matteo (Alumni)
+                                    <p><strong>Top row from the left:</strong>Luke McKeown, Ryan Hirschman, Simon Buchheit, Angus Chow, Chris Heist, Hunter Rotondo, Dave Bergquist, Jordan Matteo (Alumni)
                                        <br><strong> Middle row from the left:  </strong> Sean Alfonso, William Redmond, Kilian Bestram, Zack Easley, Aaron Posner, Jesse Bairan, Elena Matteo <br>
                                        <strong>Bottom:</strong> Tim Salecky</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -419,8 +422,11 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <img class="img-fluid d-block mx-auto" src=""/>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <img class="img-fluid d-block mx-auto" src="./img/2021 Team.jpg"/>
+                                    <p><strong>Top row from the left:</strong> Max Scerbin, Dave Bergquist, Joe Alley, Ethen Romagnolli, Chris Heist, Marc Molnar, Chris Morgan, Connor Stewart
+                                        <strong>Bottom row from the left:</strong> Jason Kwong, Tyler Blue, Andrew Diliberto, Caleb Roggi, Tiana, Taylor Dennison, John Kinsley
+                                        <strong>Bottom:</strong> Anthony Condo
+                                    </p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
                                         Close Project
