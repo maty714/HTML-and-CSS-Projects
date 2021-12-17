@@ -175,8 +175,8 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image">
-                            <a href="./img/HB_Win.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
+                        <div class="timeline-image" >
+                            <a class="point" onclick="openModal();currentSlide(1)" class="hover-shadow" data-toggle="lightbox"  data-gallery="my-gallery" >
                                 <img class="rounded-circle img-fluid" src="./img/HB_Win.jpg" alt="..." />
                             </a>
                         </div>
@@ -190,7 +190,7 @@
                     </li>
                     <li class="timeline-inverted"> <!--Positions text to the right-->
                         <div class="timeline-image">
-                            <a href="./img/Team_Photo2.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
+                            <a class="point" onclick="openModal();currentSlide(2)" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid" src="./img/Team_Photo2.jpg" alt="..." />
                             </a>
                         </div>
@@ -204,7 +204,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <a href="./img/aline_1st place old.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
+                            <a class="point" onclick="openModal();currentSlide(3)" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid" src="./img/aline_1st place old.jpg" alt="..." />
                             </a>
                         </div>
@@ -218,7 +218,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <a href="./img/NVP_OldKrew.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
+                            <a class="point" onclick="openModal();currentSlide(4)" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid"  src="./img/NVP_OldKrew.jpg" alt="..." />
                             </a>
                             </div>
@@ -232,7 +232,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <a href="./img/Team_Photo_1st_Event.jpg" data-toggle="lightbox"  data-gallery="my-gallery">
+                            <a class="point" onclick="openModal();currentSlide(5)" data-toggle="lightbox"  data-gallery="my-gallery">
                                 <img class="rounded-circle img-fluid"  src="./img/Team_Photo_1st_Event.jpg" alt="..." />
                             </a>
                         </div>
@@ -438,6 +438,46 @@
                 </div>
             </div>
         </div>
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="MODAL2">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+        
+            <div class="mySlides">
+                <div class="numbertext">1 / 5</div>
+                <img src="./img/HB_Win.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 5</div>
+                <img src="./img/Team_Photo2.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 5</div>
+                <img src="./img/aline_1st place old.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 5</div>
+                <img src="./img/NVP_OldKrew.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 5</div>
+                <img src="./img/Team_Photo_1st_Event.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        
+           
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
