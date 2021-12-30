@@ -12019,4 +12019,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   cursor: pointer;
 
  }
+ 
+ .VideoSize{
+
+  width: 25rem;
+  height: 25rem;
+
+ }
 
